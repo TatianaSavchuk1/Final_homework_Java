@@ -69,10 +69,6 @@ public void setColor(String color) {
 
 
 
-    // public boolean validateObject(){
-    //     return true;
-    // }
-
     public static List<String> propertiesForFilter(){
         List<String> list = new ArrayList<>();
         list.add("name");
@@ -93,30 +89,6 @@ public void setColor(String color) {
                 ", операционная сиситема: " + OS +
                 ", цвет: " + color;
     }
-
-    // Scanner scan = new Scanner(System.in);
-
-    // public  void ChoiseForSearch (Set set){
-
-    //     System.out.println("Choose parameter for your search: 1 - RAM, 2 - HDCapacity, 3 - OS, 4 - color");
-    //     int search = scan.nextInt();
-    //     if(search == 1){
-    //         System.out.println("Choose the RAM you need (8, 16, 32, 64)");
-    //         int searchRam = scan.nextInt();
-    //         if (searchRam == 8){
-    //             for(Object name : set){
-    //                 // result.put(String name, Integer RAM);
-    //             }
-           
-                
-    //             System.out.println(search);
-                
-    //         }
-    //     }
-    
-    
-    
-    // }
 
 }
 
